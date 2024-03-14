@@ -5,10 +5,23 @@
     font-family: "Raleway", sans-serif  ;
 }
 body{
-    background-image:linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url(https://startbootstrap.github.io/startbootstrap-business-casual/assets/img/bg.jpg);
+    background-image: url(https://startbootstrap.github.io/startbootstrap-business-casual/assets/img/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    /* background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("./img/bg.jpg");  bu səkildedədə yazıla biler*/
+
+}
+body:before {
+    content: "";
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-color:rgba(47, 23, 15, 0.65) ;
 }
 header{
     text-align: center;
@@ -167,13 +180,13 @@ footer{
 }
 /* about css burdan sonradir */
 .about__first{
-    margin: 100px auto;
+    margin: 200px auto;
     width: 100%;
     height: 700px;
 }
 .about__first__box{
     position: relative;    
-    width: 90%;
+    width: 70%;
     margin: auto;
     height: 700px;
 }
@@ -183,14 +196,14 @@ footer{
     border-radius: 6px;
 }
 .about__first__box__description{
-    width: 75%; 
+    width: 70%; 
     margin: auto;
     background-color: #f6e1c5;
     padding: 48px;
     border-radius: 6px;
     position:absolute;
     left: 13%;
-    top: 50%;
+    top: 60%;
 
 }
 .about__first__box__description span{
