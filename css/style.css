@@ -65,15 +65,16 @@ nav ul{
 }
 nav ul li{
     list-style: none;
-    padding: 20px;
+    padding: 10px;
 
 }
 nav ul li a{
-    color: #f6e1c5;
+    color: #ffffffb3;
     font-weight: 800;
     text-decoration: none;
 }
 footer{
+    color: #f6e1c5;
     position: absolute;
     bottom:-1;
     padding: 48px;
@@ -89,7 +90,7 @@ footer{
 }
 .home__first__main{
     position: relative;
-    width: 88%;
+    width: 70%;
     margin: auto
 }
 
@@ -101,8 +102,8 @@ footer{
 }
 .home__first__main__description{
     text-align: center;
-    width: 500px;
-    height: 380px;
+    width: 580px;
+    height: 350px;
     padding: 48px;
     background-color: #f6e1c5;
     position: absolute;
@@ -132,8 +133,8 @@ footer{
     font-family:"Lora", serif ;
     background-color: azure;
     text-align: center;
-    top: 400px;
-    left: 170px;
+    top: 376px;
+    left: 194px;
     padding: 24px 32px;
     font-size: 13px;
     text-decoration: none;
@@ -180,7 +181,7 @@ footer{
 }
 /* about css burdan sonradir */
 .about__first{
-    margin: 200px auto;
+    margin: 100px auto;
     width: 100%;
     height: 700px;
 }
